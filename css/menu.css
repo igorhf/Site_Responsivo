@@ -1,0 +1,30 @@
+.menu  {
+   background: #33cc33;
+   text-align: center;
+   padding-bottom: 10px;
+   padding-top: 10px;
+   width: 100%;
+ }
+.menu ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin:0 auto 0;
+}
+.menu ul li a{
+	color: white;
+	text-decoration:none;
+	padding: 25px 10px 25px 10px;
+}
+.menu ul li a:hover{
+	transition: all 1s;
+	background: #ff6600
+}
+.menu img{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 70px;
+	left: 20px;
+	z-index: 1;
+	border-radius: 25%;
+}
