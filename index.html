@@ -3,11 +3,19 @@
 <head>
 	<title>Pagina Principal</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/menu.css">
-	<link rel="stylesheet" type="text/css" href="css/banner.css">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="css/menu.css" media="screen and (min-width:701px)">
+	<link rel="stylesheet" type="text/css" href="css/banner.css" media="screen and (min-width:701px)">
+	<!--tablet-->
+	<link rel="stylesheet" type="text/css" href="css/menu_tablet.css">
+	<!--mobile-->
+	<link rel="stylesheet" type="text/css" href="css/menu_mobile.css" media="screen and (min-width:200px) and (max-width:700px)">
+	
+	<link rel="stylesheet" type="text/css" href="css/noticia.css">
 </head>
 <body>
-	<nav class="menu">
+	<!--menu desktop-->
+	<nav class="menu">		
 		<img src="img/Himouto.jpg">
 		<ul>
 			<li><a href="">ANALISE</a></li>
@@ -16,21 +24,35 @@
 			<li><a href="">MANGÁ</a></li>			
 		</ul>
 	</nav>
+	<!--menu mobile-->
+	<nav class="menu_mobile">
+		<img class="icone" src="img/icone_menu.png">		
+		<ul>
+			<li><a href="">ANALISE</a></li>
+			<li><a href="">NOTICIA</a></li>
+			<li><a href="">CROSSPLAY</a></li>
+			<li><a href="">MANGÁ</a></li>			
+		</ul>
+	</nav>
+	
 	<div class="banner">
 		<img src="img/MANGA.jpg">
 	</div>
-	<div class="noticia">
+	<!--<div class="noticia">
 		<div class="esquerdo">
 			<div>
-				<img src="">
+				<img src="img/broly1.jpg">
+			</div>
+			<div class="detalhe">
+				<a href="">Novo filme de Dragon Ball Super</a><br>				
+				<span class="categoria">NOTICIA</span>   <span class="autor">IGOR HENRIQUE</span>
+				<span class="data">30/07/2018</span>
 			</div>
 		</div>
 		<div class="direito">
 			
 		</div>
 	</div>
-
-
-
+    -->
 </body>
 </html>

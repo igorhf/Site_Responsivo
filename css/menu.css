@@ -1,5 +1,5 @@
 .menu  {
-   background: #33cc33;
+   background: #373232;
    text-align: center;
    padding-bottom: 10px;
    padding-top: 10px;
@@ -9,6 +9,7 @@
 	list-style-type: none;
 	display: inline-block;
 	margin:0 auto 0;
+
 }
 .menu ul li a{
 	color: white;
@@ -20,11 +21,15 @@
 	background: #ff6600
 }
 .menu img{
-	width: 100px;
-	height: 100px;
+	width: 90px;
+	height: 67px;
 	position: absolute;
-	top: 70px;
+	top: 10px;
 	left: 20px;
 	z-index: 1;
 	border-radius: 25%;
+}
+/*menu mobile*/
+.menu_mobile{
+	display: none;
 }

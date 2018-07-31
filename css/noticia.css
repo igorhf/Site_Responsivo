@@ -1,0 +1,32 @@
+.noticia{
+	width: 100%;
+	margin-top: 5px;
+}
+.esquerdo div img{
+	width: 218px;
+	height: 150px;
+	cursor: pointer;
+}
+.esquerdo{
+	width: 100%;
+	height: 160px;
+	border: 1px solid;
+}
+.detalhe{
+	text-align:center;	
+	
+}
+.esquerdo div{
+	display: inline-block;
+}
+.esquerdo .detalhe {	
+	border: 1px solid;		
+}
+.detalhe a{	
+	text-decoration:none;
+	padding-bottom: 30px;	
+
+}
+.detalhe .categoria{
+	background: green;
+}
