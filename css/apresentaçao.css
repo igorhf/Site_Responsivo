@@ -1,11 +1,15 @@
 .noticia img{
-	width: 250px;
-	height: 150px;
-	cursor: pointer;	
+	width: 100%;	
+	cursor: pointer;
+	max-height: 300px;
+    object-fit: cover;
+    object-position: top center;	
 }
 .noticia p,span{
 	font-family: sans-serif;
 	cursor: pointer;
+	margin-right: 1%;
+	margin-left: 1%;
 }
 .noticia .data{
 	color: #808080;
@@ -13,8 +17,7 @@
 }
 .noticia .autor{
 	font-size: 12px;
-	margin-right: 3%;
-	margin-left: 3%;
+	
 }
 .noticia .categoria{
 	font-size: 12px;
@@ -24,13 +27,13 @@
 .noticia .titulo{
 	margin-top: 1%;
 	margin-bottom: 1%;
-	font-size: 130%;
+	font-size: 90%;
 }
 .noticia .titulo:hover{
 	color: blue;
 }
 .noticia{
-	width: 100%;
+	width: 25%;
 	border: 2px solid;
 	margin-top: 1%;
 
