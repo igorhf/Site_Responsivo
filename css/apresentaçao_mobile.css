@@ -1,0 +1,40 @@
+.noticia img{
+	width: 100%;	
+	cursor: pointer;
+	max-height: 300px;
+    object-fit: cover;
+    object-position: top center;	
+}
+.noticia p,span{
+	font-family: sans-serif;
+	cursor: pointer;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+.noticia .data{
+	color: #808080;
+	font-size: 12px;
+}
+.noticia .autor{
+	font-size: 12px;
+	
+}
+.noticia .categoria{
+	font-size: 12px;
+	background: #000;
+	color: white;	
+}
+.noticia .titulo{
+	margin-top: 1%;
+	margin-bottom: 1%;
+	font-size: 90%;
+}
+.noticia .titulo:hover{
+	color: blue;
+}
+.noticia{
+	width: 100%;
+	border: 2px solid;
+	margin-top: 1%;
+
+}

@@ -71,3 +71,10 @@
 	width: 100%;
 	height: 200px;
 }
+/*css conteudo apresentação*/
+.noticia{
+	width: 100%;
+	border: 2px solid;
+	margin-top: 1%;
+
+}
